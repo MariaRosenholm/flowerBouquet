@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="author" content="Maria Rosenholm" />
+    <meta name="description" content="Flower Bouquet Builder" />
+    <link rel="shortcut icon" href="Group 2.png" type="favicon" />
+    <title>Flower Bouquet Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Codystar&family=Petit+Formal+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header><h1>Flower Bouquet Builder</h1></header>
+    <div class="container">
+      <section>
+        <h2>Choose maximum of five combinations</h2>
+        <form>
+          <label>Flower </label
+          ><select name="flowerList" id="flowerList"></select>
+          <label>Amount </label><input type="text" id="amount" />
+          <label>Color</label>
+          <select name="color" id="color">
+            <option value="White">White</option>
+            <option value="Black">Black</option>
+            <option value="Pink">Pink</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Red">Red</option>
+            <option value="Purple">Purple</option>
+            <option value="Blue">Blue</option>
+          </select>
+          <input type="submit" value="Add to the bouquet" id="click" />
+        </form>
+        <h2 id="totalPrice">Total price of a bouquet:</h2>
+        <p id="totalPriceE"></p>
+      </section>
+      <section>
+        <h2>Flowers in the bouquet</h2>
+        <article></article>
+      </section>
+      <canvas width="700" height="600">This graphic cannot be displayed</canvas>
+    </div>
+    <footer>
+      <p>Copyrights</p>
+      <img id="Logo" src="Group 2.png" alt="Logo" />
+    </footer>
+  </body>
+  <script type="module" src="client.js"></script>
+</html>

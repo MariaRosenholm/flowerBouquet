@@ -1,0 +1,27 @@
+[
+  {
+    "flowerId": 1,
+    "name": "lily-of-the-valley",
+    "unitPrice": 3
+  },
+  {
+    "flowerId": 2,
+    "name": "rose",
+    "unitPrice": 6
+  },
+  {
+    "flowerId": 3,
+    "name": "violet",
+    "unitPrice": 10
+  },
+  {
+    "flowerId": 4,
+    "name": "tulip",
+    "unitPrice": 2
+  },
+  {
+    "flowerId": 5,
+    "name": "marigold",
+    "unitPrice": 5
+  }
+]

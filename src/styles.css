@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin-right: 50%;
+  width: 100%;
+  background-color: lightpink;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 5vh;
+  font-size: 4rem;
+  text-decoration: underline;
+  font-family: "Petit Formal Script", cursive;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-left: 5%;
+  font-size: 25px;
+}
+
+p {
+  margin: 0 1vw;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 3vh;
+  height: 40vw;
+  padding: 1vh;
+}
+
+section {
+  margin: 0 2%;
+  padding: 0 1vh;
+}
+
+section:nth-child(2) {
+  width: 55%;
+  height: 94%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3vw;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  height: 81%;
+  width: 104%;
+  margin: 3vh 0;
+  border: mistyrose solid 2px;
+  box-shadow: 3px 5px rgb(227, 127, 114);
+}
+
+#totalPrice {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 5vh 0;
+  align-items: center;
+}
+
+label,
+input,
+select {
+  width: 50%;
+  border-radius: 5px;
+}
+
+input,
+select {
+  height: 5vh;
+  background-color: mistyrose;
+  margin-bottom: 1vh;
+}
+
+#click {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-bottom: 6vh;
+  box-shadow: 3px 3px rgb(227, 127, 114);
+}
+
+#click:hover {
+  box-shadow: 3px 3px rgb(50, 39, 38);
+}
+
+ul {
+  margin-top: 3vh;
+  margin-left: 1.5vw;
+  list-style: none;
+  width: 40%;
+  height: 25%;
+  border-radius: 10px;
+  font-size: 16px;
+  border-bottom: solid maroon 1px;
+}
+
+ul li {
+  text-align: center;
+  width: 8vw;
+  padding: 1px;
+}
+
+#totalPriceE {
+  height: 5vh;
+}
+
+p {
+  margin-top: 3.5vh;
+  font-family: "Petit Formal Script", cursive;
+}
+
+img {
+  margin-top: 3vh;
+}
